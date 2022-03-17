@@ -1,6 +1,6 @@
-# robbyrussell-plus-zsh-theme
+# robbyrussell-plus
 
-The [robbyrussell theme](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) plus hostname.
+The [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) zsh theme + a short hostname.
 
 ![](screenshot.png)
 
@@ -25,4 +25,4 @@ Based on [robbyrussell.zsh-theme](https://github.com/ohmyzsh/ohmyzsh/blob/master
 
 ## License
 
-MIT
+[MIT](./LICENSE)
