@@ -1,4 +1,11 @@
-PROMPT="%{$fg_bold[magenta]%}%m %(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜)"
+if [[ $SSH_CONNECTION ]]; then
+# in remote sessions
+  PROMPT="%{$fg_bold[magenta]%}%m %(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜)"
+else
+# in local sessions
+  PROMPT="%(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜)"
+fi
+
 PROMPT+=' %{$fg[blue]%}%c%{$reset_color%} $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
