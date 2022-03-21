@@ -1,8 +1,16 @@
 # robbyrussell-plus
 
-The [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) zsh theme + a short hostname.
+An adaptive zsh theme for ssh users, based on [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme).
 
-![](screenshot.png)
+## Screenshot
+
+### At a local session
+
+![](local.png)
+
+### At an ssh session
+
+![](remote.png)
 
 ## Installation
 

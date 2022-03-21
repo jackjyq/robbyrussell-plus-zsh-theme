@@ -1,8 +1,8 @@
 if [[ $SSH_CONNECTION ]]; then
-# in remote sessions
+# at remote session
   PROMPT="%{$fg_bold[magenta]%}%m %(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜)"
 else
-# in local sessions
+# at local session
   PROMPT="%(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}➜)"
 fi
 
