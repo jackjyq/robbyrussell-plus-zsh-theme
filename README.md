@@ -1,8 +1,10 @@
 # robbyrussell-plus
 
+[![](https://img.shields.io/badge/awesome--zsh--plugins-Listed-brightgreen)](https://github.com/unixorn/awesome-zsh-plugins)
+
 An adaptive zsh theme for ssh users, based on [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme).
 
-## Screenshot
+## Screenshots
 
 ### At a local session
 
